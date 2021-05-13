@@ -30,7 +30,7 @@
     "qrcode": "^0.9.0"
   },
   "devDependencies": {
-    "jest": "^20.0.4",
+    "jest": "^26.6.3",
     "standard": "^10.0.3"
   }
 }

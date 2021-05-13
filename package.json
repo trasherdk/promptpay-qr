@@ -1,28 +1,8 @@
 {
-  "dependencies": {
-    "crc": "^3.4.4",
-    "minimist": "^1.2.0",
-    "qrcode": "^0.9.0"
-  },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
-  "devDependencies": {
-    "jest": "^20.0.4",
-    "standard": "^10.0.3"
-  },
   "name": "promptpay-qr",
-  "bin": {
-    "promptpay-qr": "./cli.js"
-  },
   "version": "0.4.4",
   "description": "Library to generate PromptPay payload and CLI script to generate QR code",
   "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "lint": "standard index.js index.test.js"
-  },
   "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
   "license": "MIT",
   "repository": {
@@ -32,5 +12,25 @@
   "bugs": {
     "url": "https://github.com/dtinth/promptpay-qr/issues"
   },
-  "homepage": "https://github.com/dtinth/promptpay-qr#readme"
+  "homepage": "https://github.com/dtinth/promptpay-qr#readme",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "bin": {
+    "promptpay-qr": "./cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "standard index.js index.test.js"
+  },
+  "dependencies": {
+    "crc": "^3.4.4",
+    "minimist": "^1.2.5",
+    "qrcode": "^0.9.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "standard": "^10.0.3"
+  }
 }
